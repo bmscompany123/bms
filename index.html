@@ -13,7 +13,8 @@
                 <div class="logo">
                     <img src="image/bms_logo 1.png" alt="logo" height="80px" width="80px" >
                 </div>
-                <div class="menu">
+                <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+                <div class="menu" id="menu">
                     <div><p>Nutrients</p> <img src="image/arrow_drop_down.png" alt="arrow_drop_down" height="40px" width="40px" ></div>
                     <div><p>Product</p> <img src="image/arrow_drop_down.png" alt="arrow_drop_down" height="40px" width="40px"></div>
                     <div><p>About</p> </div>
@@ -24,8 +25,8 @@
             </div>
             <div class="show_case">
                 <div class="text">
-                    <h2 style=" font-size: 5vw; color: #D71313; margin-left: 10vw; margin-bottom: 0;">Kadali</h2>
-                    <h3 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 2vw; color: #0D1282; margin-left: 10vw; margin-top: 0;">Nepal Agro Product</h3>
+                    <h2 >Kadali</h2>
+                    <h3 >Nepal Agro Product</h3>
                 </div>
             </div>
             <div class="about">
@@ -51,23 +52,29 @@
                 <div class="right">
                     <div>
                         <img src="image/Home.png" height="20px" width="20px">
-                        <p><a href="http://www.kibotelectronics.com.np" target="_blank">www.kibotelectronics.com.np</a></p>
+                        <p><a href="http://www.bmscompany.com.np" target="_blank">www.bmscompany.com.np</a></p>
                     </div>
                     <div>
                         <img src="image/mail.svg" height="20px" width="20px">
-                        <p><a href="mailto:kibotelectronics@gmail.com">kibotelectronics@gmail.com</a></p>
+                        <p><a href="mailto:bmscompany2081@gmail.com">bmscompany2081@gmail.com</a></p>
                     </div>
                     <div>
                     <img src="image/location_on.svg" height="20px" width="20px">
-                    <a href="https://maps.app.goo.gl/2Sjn3DoFsfNdg7UR7"><p>Bishnupur-1, Saptari</p></a>
+                    <a href="https://maps.app.goo.gl/9dgmhSeX1PZG3iKL9"><p>Rajbiraj-7, Saptari, Nepal</p></a>
                     </div>
                     <div>
                         <img src="image/Phone.svg" height="20px" width="20px">
-                        <p><a href="tel:9846964701">9846964701</a></p>
+                        <p><a href="tel:9846964701">9764576500/ 9764576501</a></p>
                     </div>
                 </div>
             </footer>
         </div>
+
+        <script>
+            function toggleMenu() {
+                document.getElementById("menu").classList.toggle("active");
+            }
+        </script>
     </body>
     
 </html>
