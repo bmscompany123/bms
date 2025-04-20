@@ -22,7 +22,7 @@ body {
     
 .text h2{
     font-size: 10vw; 
-    color: #D71313; 
+    color: #ff00d0; 
     margin-left: 10vw; 
     margin-bottom: 0;
 }
@@ -57,10 +57,11 @@ body {
 }
 
 .show_case {
-    background-image: url("../image/banana.png");
+    background-color: rgb(201, 236, 48);
+    background-image: url("../image/banana2.png");
     width: 100%;
     height: 30vw;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     display: flex;
     align-items: center;
